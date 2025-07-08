@@ -129,3 +129,21 @@ Depois, é aberto um editor de texto onde devemos escrever a documentação. ela
 >
 > Para digitar, é necessário clicar na tecla `<i>`. Ao finalizar, apertar a tecla `<ESC>` e digitar o comando `<:wq>` (*write* e *quit*). Após dar enter o Vim será fechado e voltará para a tela do Bash.
 
+## Lendo o log do repositório
+
+Para ver a lista dos commits feitos no repositório:
+
+```bash
+$ git log
+```
+
+Exemplo de saída:
+
+```bash
+commit 4f28138d437c340cd9117d7d5d564dc574fe07ba (HEAD -> main)
+Author: leosturmer <leosturmer@email>
+Date:   Tue Jul 8 11:29:48 2025 -0300
+
+    Primeiro commit
+```
+
